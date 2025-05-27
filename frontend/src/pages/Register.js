@@ -105,7 +105,7 @@ const Register = () => {
 
       try {
         const response = await axios.post(
-          "https://api.edsurance.in/api/auth/user/register",
+          `${process.env.REACT_APP_API_DOMAIN}/api/auth/user/register`,
           {
             firstname: formData.firstname,
             lastname: formData.lastname,

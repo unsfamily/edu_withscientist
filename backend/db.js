@@ -5,7 +5,7 @@ const db = mysql.createConnection({
   host: process.env.DB_HOST || "127.0.0.1",
   user: process.env.DB_USER || "root",
   password: process.env.DB_PASS, // do not fallback to default password
-  database: process.env.DB_NAME || "edsurance",
+  database: process.env.DB_NAME || "withscientist_edsurance",
 });
 
 db.connect((err) => {

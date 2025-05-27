@@ -63,7 +63,7 @@ const Login = () => {
       setIsLoading(true);
       setApiError("");
 
-      const loginEndpoint = "https://api.edsurance.in/api/auth/user/login";
+      const loginEndpoint = `${process.env.REACT_APP_API_DOMAIN}/api/auth/user/login`;
 
       try {
         const response = await axios.post(loginEndpoint, {

@@ -26,7 +26,7 @@ function Register() {
     try {
       // Remove withCredentials to simplify the request
       const res = await axios.post(
-        "https://api.edsurance.in/api/auth/register",
+        `${process.env.REACT_APP_API_DOMAIN}/api/auth/register`,
         form
       );
       setMsg(res.data.msg);

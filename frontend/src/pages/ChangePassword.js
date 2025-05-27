@@ -15,7 +15,7 @@ function ChangePassword() {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "https://api.edsurance.in/api/auth/user/change-password",
+        `${process.env.REACT_APP_API_DOMAIN}/api/auth/user/change-password`,
         form,
         {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },

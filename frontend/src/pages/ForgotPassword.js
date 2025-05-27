@@ -13,7 +13,7 @@ function ForgotPassword() {
     setError("");
     try {
       const res = await axios.post(
-        "https://api.edsurance.in/api/auth/user/forgot-password",
+        `${process.env.REACT_APP_API_DOMAIN}/api/auth/user/forgot-password`,
         { email }
       );
       setMsg(res.data.msg);
