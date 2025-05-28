@@ -118,7 +118,7 @@ const Home = () => {
       <div className="jumbotron jumbotron-fluid position-relative overlay-bottom">
         <div className="container text-center my-5 py-5">
           <h1 className="text-white display-1 mb-5">
-            Edsurance<span className="fs-20">2.0</span>
+            With Scientist<span className="fs-20"></span>
           </h1>
         </div>
       </div>

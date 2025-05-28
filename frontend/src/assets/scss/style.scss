@@ -1,6 +1,6 @@
 /******* Bootstrap Theming ********/
-$pink: #cd4df1;
-$primary: #7d2ae8;
+$pink: #316647;
+$primary: #0e7439;
 $secondary: #F14D5D;
 $light: #ECF4FF;
 $dark: #120F2D;
@@ -122,7 +122,7 @@ height:200px;
 }
 
 .jumbotron {
-    background: linear-gradient(rgba(40, 120, 235, 0.25), rgb(235 40 229 / 58%)), url(../images/header.jpg), no-repeat center center;
+    background: linear-gradient(rgba(40, 120, 235, 0.25), rgba(15, 91, 36, 0.58)), url(../images/header.jpg), no-repeat center center;
     background-size: cover;
 }
 
@@ -153,16 +153,16 @@ height:200px;
     background-size: contain;
 }
 .bg-pink{
-    background: #8e85df;
+    background: #043e27;
 }
 .bg-dpink{
-    background: #7b74b9;
+    background: #1b612b;
 }
 .right-radious{
     border-radius: 0 0 100px 0;
 }
 .bg-image {
-    background: linear-gradient(rgba(40, 120, 235, 0.05), rgba(40, 120, 235, 0.05)), url(../images/bg-image.jpg);
+    background: linear-gradient(rgba(51, 156, 102, 0.05), rgba(19, 144, 100, 0.05)), url(../images/bg-image.jpg);
     background-attachment: fixed;
 }
 .section-title h6{
@@ -204,7 +204,7 @@ height:200px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.15), 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     margin: 0 auto;
-    background: #17948f;
+    background: #07a754;
     color: #fff;
     box-shadow: 1px 7px 12px #ccc;
 }
@@ -219,7 +219,7 @@ height:200px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      border-top:4px solid #7d2ae8;
+      border-top:4px solid #0e7439;
     }
 
     .incentive-box h4 {
@@ -235,11 +235,11 @@ height:200px;
     }
 
     .incentive-box:hover {
-      background: #94a0ee;
+      background: #148e47;
       color: #fff;
       transform: translateY(-8px);
       border-top:none;
-      border-bottom:4px solid #7d2ae8;
+      border-bottom:4px solid #0e7439;
     }
 
     .incentive-box:hover h4,
@@ -258,7 +258,7 @@ height:200px;
 }
 .client_section .box:hover .img-box{
 //   border-color: #ff6f00; /* Change border color on hover */
-  border: 4px solid  #ae40b2; /* Initial gradient */
+  border: 4px solid  #4eb96c; /* Initial gradient */
   transform: scale(1.1) rotate(10deg);
 }
 .client_section {
@@ -281,7 +281,7 @@ height:200px;
             overflow: hidden;
             margin-right: -65px;
             position: relative;
-            background: #7d2ae8;
+            background: #0e7439;
             border: 5px solid #19c880; /* Base transparent border */
             background-size: 400% 400%; /* For smooth gradient shifts */
             transition: transform 0.4s ease;
@@ -315,7 +315,7 @@ height:200px;
                 .client_name {
                     h5 {
                     font-weight: bold;
-                    color: #8019c8;
+                    color: #0e7439;
                     margin-bottom: 10px;
                     text-transform: uppercase;
                     }
@@ -375,7 +375,7 @@ height:200px;
     color: #fff;
 }
 .aboutus:hover h3 i {
-    color: #ffb703;
+    color: #0e7439;
 }
 .aboutus:hover h3 {
         color: #e0e0e0;

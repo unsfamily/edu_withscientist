@@ -17,7 +17,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
         <Link to="/" className="navbar-brand ml-lg-3">
           <h1 className="m-0 text-uppercase text-primary">
-            <img width="150" src={edsuranceLogo} alt="Edsurance Logo" />
+            <img height="60" src={edsuranceLogo} alt="Edsurance Logo" />
           </h1>
         </Link>
         <button
