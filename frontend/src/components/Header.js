@@ -40,7 +40,7 @@ const Header = () => {
             <Link to="/about" className="nav-item nav-link">
               About
             </Link>
-            <div className="nav-item dropdown">
+            {/* <div className="nav-item dropdown">
               <span
                 className="nav-link dropdown-toggle"
                 role="button"
@@ -75,7 +75,7 @@ const Header = () => {
                   Digital Videos
                 </Link>
               </div>
-            </div>
+            </div> */}
             <Link to="/contact" className="nav-item nav-link">
               Contact
             </Link>

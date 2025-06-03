@@ -12,6 +12,8 @@ import diglib from "../assets/images/diglib.jpg";
 import lms from "../assets/images/lms.jpg";
 import online from "../assets/images/online.jpg";
 import offline from "../assets/images/Offline.jpg";
+import research1 from "../assets/images/research1.jpg";
+import research2 from "../assets/images/research2.jpg";
 import networking from "../assets/images/networking.jpg";
 import collab from "../assets/images/collab.jpg";
 import industry from "../assets/images/ind.jpg";
@@ -128,72 +130,24 @@ const Home = () => {
       <div className="client_section container">
         <div className="box">
           <div className="img-box">
-            <img src={diglib} alt="Digital Libraries" />
+            <img src={online} alt="Digital Libraries" />
           </div>
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Digital Libraries and e-Learning Platforms</h5>
+                <h5>Where Teachers Meet the Frontiers of Science</h5>
                 <h6>
-                  Access to thousands of e-books, online courses from top
-                  universities
+                  <h6>📅 Every Saturday & Sunday<br/>
+                    🕒 Time: 4:00 PM – 5:00<br/>
+                    📍 Live on: Google Meet<br/>
+                    🎓 For Teachers of Grades 6 to 12<br/>
+                    🧾 E-Certificates for Participation
+                </h6>
                 </h6>
               </div>
             </div>
             <a
-              className="btn btn-primary mt-5 text-center"
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                handleClickHere("ebook");
-              }}
-            >
-              View Details
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <div className="img-box">
-            <img src={lms} alt="LMS" />
-          </div>
-          <div className="detail-box">
-            <div className="client_info">
-              <div className="client_name">
-                <h5>Learning Management System (LMS)</h5>
-                <h6>
-                  Educational software and tools, virtual labs and, educational
-                  games
-                </h6>
-              </div>
-            </div>
-            <a
-              className="btn btn-primary mt-5 text-center"
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                handleClickHere("lms");
-              }}
-            >
-              View Details
-            </a>
-          </div>
-        </div>
-        <div className="box">
-          <div className="img-box">
-            <img src={online} alt="Online Workshops" />
-          </div>
-          <div className="detail-box">
-            <div className="client_info">
-              <div className="client_name">
-                <h5>Monthly online workshops</h5>
-                <h6>
-                  Topics like innovative teaching methods, technology
-                  integration, educational leadership
-                </h6>
-              </div>
-            </div>
-            <a
-              className="btn btn-primary mt-5 text-center"
+              className="btn btn-primary mt-2 text-center"
               href="#"
               onClick={(e) => {
                 e.preventDefault();
@@ -204,17 +158,44 @@ const Home = () => {
             </a>
           </div>
         </div>
+        
         <div className="box">
           <div className="img-box">
-            <img src={offline} alt="Offline Workshops" />
+            <img src={research1} alt="Online Workshops" />
           </div>
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Quaterly offline workshops</h5>
+                <h5>Why Join WITH SCIENTISTS?</h5>
                 <h6>
-                  Professional development workshops, hands-on training for
-                  teachers, leadership development
+                  Get weekly updates on cutting-edge scientific research & innovations. Learn to integrate modern science into curriculum-aligned classroom content.
+                  Discover scientist profiles, experiments, and story-based learning techniques. Enable your students to connect textbook learning with real-world impact
+                  integration, educational leadership
+                </h6>
+              </div>
+            </div>
+            {/* <a
+              className="btn btn-primary mt-5 text-center"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                handleClickHere("online");
+              }}
+            >
+              View Details
+            </a> */}
+          </div>
+        </div>
+        <div className="box">
+          <div className="img-box">
+            <img src={research2} alt="LMS" />
+          </div>
+          <div className="detail-box">
+            <div className="client_info">
+              <div className="client_name">
+                <h5>Contemporary Scientists & Research Topics & ideas</h5>
+                <h6>
+                  Contemporary Scientists & Research Topics with Pedagogical Insights.<br/><br/> These session ideas can run weekly and are organized by research theme + featured scientists, with actionable teaching strategies
                 </h6>
               </div>
             </div>
@@ -232,16 +213,48 @@ const Home = () => {
         </div>
         <div className="box">
           <div className="img-box">
+            <img src={offline} alt="Offline Workshops" />
+          </div>
+          <div className="detail-box">
+            <div className="client_info">
+              <div className="client_name">
+                <h5>The Intersection of Science & Society</h5>
+                <h6>
+                  Focus: Science communication, misinformation, and ethics 
+                  Scientist Role Models: Dr. Gagandeep Kang (Virologist), Rohini Godbole (Particle Physicist)<br/>
+                  Activity: “Bust a Myth” science communication challenge 
+                  Teaching Goal: Encourage evidence-based thinking and scientific skepticism
+                </h6>
+              </div>
+            </div>
+            {/* <a
+              className="btn btn-primary mt-5 text-center"
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                handleClickHere("offline");
+              }}
+            >
+              View Details
+            </a> */}
+          </div>
+        </div>
+        <div className="box">
+          <div className="img-box">
             <img src={networking} alt="Networking" />
           </div>
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Networking events</h5>
-                <h6>Meet industry experts, educators, and innovators</h6>
+                <h5>Support Materials for Teachers</h5>
+                <h6>Weekly slide decks<br/> 
+                    Scientist-of-the-week poster templates<br/> 
+                    Activity worksheets (printable) <br/>
+                    Short videos + QR-based reading lists <br/>
+                    NEP 2020 & CBSE-compatible classroom integration plans</h6>
               </div>
             </div>
-            <a
+            {/* <a
               className="btn btn-primary mt-5 text-center"
               href="#"
               onClick={(e) => {
@@ -250,10 +263,10 @@ const Home = () => {
               }}
             >
               View Details
-            </a>
+            </a> */}
           </div>
         </div>
-        <div className="box">
+        {/* <div className="box">
           <div className="img-box">
             <img src={collab} alt="Collaborative Projects" />
           </div>
@@ -325,9 +338,9 @@ const Home = () => {
               View Details
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="section-title text-center">
           <h6 className="d-inline-block position-relative text-secondary text-uppercase pb-2 my-4">
             Additional Incentives
@@ -368,7 +381,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>
