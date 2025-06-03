@@ -38,32 +38,18 @@ const OnlineTraining = () => {
               <h2 className="text-center text-info mb-4">
                 💻 Monthly online workshops
               </h2>
-              {/* <p className="text-center mb-5">
-                Join live sessions with educators and peers. Check the details
-                below:
-              </p> */}
-              <div className="col-md-6 text-center training-img">
-                <img src={OnlineTraining03} alt="Online Training" />
-                <img src={OnlineTraining04} alt="Online Training" />
-                <img src={OnlineTraining05} alt="Online Training" />
-                <img src={OnlineTraining06} alt="Online Training" />
-                <img src={OnlineTraining07} alt="Online Training" />
-                <img src={OnlineTraining08} alt="Online Training" />
-                <img src={OnlineTraining09} alt="Online Training" />
-                <img src={OnlineTraining10} alt="Online Training" />
-              </div>
               <table className="table table-bordered bg-white shadow mt-4">
                 <thead className="table-info">
                   <tr>
-                    <th>Date</th>
+                    {/* <th>Date</th> */}
                     <th>Topic</th>
                     <th>Link</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>May 28, 2025</td>
-                    <td>Science Fair Planning</td>
+                    {/* <td>May 28, 2025</td> */}
+                    <td>Where Teachers Meet the Frontiers of Science</td>
                     <td>
                       {isAuthenticated && !hasSubscription ? (
                         <div className="text-center mt-4">
@@ -90,6 +76,207 @@ const OnlineTraining = () => {
                   </tr>
                 </tbody>
               </table>
+              {/* <p className="text-center mb-5">
+                Join live sessions with educators and peers. Check the details
+                below:
+              </p> */}
+              <div className="col-md-12 text-center training-img">
+                <div className="wrap-box">
+                  <div className="bod-box"><img src={OnlineTraining03} alt="Online Training" />
+	<p>Where Teachers Meet the Frontiers of Science</p>
+	<div>{isAuthenticated && !hasSubscription ? (
+                          <div className="text-center mt-4">
+                            {/* <button
+                              className="btn btn-primary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleClickHere();
+                              }}
+                            >
+                              Enroll in UNS for this facility
+                            </button> */}
+                          </div>
+                        ) : (
+                          <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Register Now
+                          </a>
+                        )}</div>
+</div>
+<div className="bod-box"><img src={OnlineTraining04} alt="Online Training" />
+	<p>Where Teachers Meet the Frontiers of Science</p>
+	<div>{isAuthenticated && !hasSubscription ? (
+                          <div className="text-center mt-4">
+                            {/* <button
+                              className="btn btn-primary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleClickHere();
+                              }}
+                            >
+                              Enroll in UNS for this facility
+                            </button> */}
+                          </div>
+                        ) : (
+                          <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Register Now
+                          </a>
+                        )}</div>
+</div>
+<div className="bod-box"><img src={OnlineTraining05} alt="Online Training" />
+	<p>Where Teachers Meet the Frontiers of Science</p>
+	<div>{isAuthenticated && !hasSubscription ? (
+                          <div className="text-center mt-4">
+                            {/* <button
+                              className="btn btn-primary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleClickHere();
+                              }}
+                            >
+                              Enroll in UNS for this facility
+                            </button> */}
+                          </div>
+                        ) : (
+                          <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Register Now
+                          </a>
+                        )}</div>
+</div>
+<div className="bod-box"><img src={OnlineTraining06} alt="Online Training" />
+	<p>Where Teachers Meet the Frontiers of Science</p>
+	<div>{isAuthenticated && !hasSubscription ? (
+                          <div className="text-center mt-4">
+                            {/* <button
+                              className="btn btn-primary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleClickHere();
+                              }}
+                            >
+                              Enroll in UNS for this facility
+                            </button> */}
+                          </div>
+                        ) : (
+                          <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Register Now
+                          </a>
+                        )}</div>
+</div>
+<div className="bod-box"><img src={OnlineTraining07} alt="Online Training" />
+	<p>Where Teachers Meet the Frontiers of Science</p>
+	<div>{isAuthenticated && !hasSubscription ? (
+                          <div className="text-center mt-4">
+                            {/* <button
+                              className="btn btn-primary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleClickHere();
+                              }}
+                            >
+                              Enroll in UNS for this facility
+                            </button> */}
+                          </div>
+                        ) : (
+                          <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Register Now
+                          </a>
+                        )}</div>
+</div>
+<div className="bod-box"><img src={OnlineTraining08} alt="Online Training" />
+	<p>Where Teachers Meet the Frontiers of Science</p>
+	<div>{isAuthenticated && !hasSubscription ? (
+                          <div className="text-center mt-4">
+                            {/* <button
+                              className="btn btn-primary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleClickHere();
+                              }}
+                            >
+                              Enroll in UNS for this facility
+                            </button> */}
+                          </div>
+                        ) : (
+                          <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Register Now
+                          </a>
+                        )}</div>
+</div>
+<div className="bod-box"><img src={OnlineTraining09} alt="Online Training" />
+	<p>Where Teachers Meet the Frontiers of Science</p>
+	<div>{isAuthenticated && !hasSubscription ? (
+                          <div className="text-center mt-4">
+                            {/* <button
+                              className="btn btn-primary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleClickHere();
+                              }}
+                            >
+                              Enroll in UNS for this facility
+                            </button> */}
+                          </div>
+                        ) : (
+                          <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Register Now
+                          </a>
+                        )}</div>
+</div>
+<div className="bod-box"><img src={OnlineTraining10} alt="Online Training" />
+	<p>Where Teachers Meet the Frontiers of Science</p>
+	<div>{isAuthenticated && !hasSubscription ? (
+                          <div className="text-center mt-4">
+                            {/* <button
+                              className="btn btn-primary"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                handleClickHere();
+                              }}
+                            >
+                              Enroll in UNS for this facility
+                            </button> */}
+                          </div>
+                        ) : (
+                          <a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Register Now
+                          </a>
+                        )}</div>
+</div>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
