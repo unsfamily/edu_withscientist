@@ -52,7 +52,7 @@ const OnlineTraining = () => {
                     <td>Where Teachers Meet the Frontiers of Science</td>
                     <td>
                       {isAuthenticated && !hasSubscription ? (
-                        <div className="text-center mt-4">
+                        <div className="text-center">
                           <button
                             className="btn btn-primary"
                             onClick={(e) => {
@@ -82,9 +82,10 @@ const OnlineTraining = () => {
               </p> */}
               <div className="col-md-12 text-center training-img">
                 <div className="wrap-box">
-                  <div className="bod-box"><img src={OnlineTraining03} alt="Online Training" />
-	<p>Where Teachers Meet the Frontiers of Science</p>
-	<div>{isAuthenticated && !hasSubscription ? (
+                  <div className="bod-box">
+                    <img src={OnlineTraining03} alt="Online Training" />
+                    <p>Where Teachers Meet the Frontiers of Science</p>
+                    <div>{isAuthenticated && !hasSubscription ? (
                           <div className="text-center mt-4">
                             {/* <button
                               className="btn btn-primary"
@@ -95,17 +96,18 @@ const OnlineTraining = () => {
                             >
                               Enroll in UNS for this facility
                             </button> */}
-                          </div>
-                        ) : (
-                          <a
-                            href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Register Now
-                          </a>
-                        )}</div>
-</div>
+                      </div>
+                      ) : (
+                        <a
+                          href="https://docs.google.com/forms/d/e/1FAIpQLScDm7aodpA71cr0mAqn7uf844lpWLvsu3vkOxSNd7q7YDEszA/viewform?usp=dialog"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Register Now
+                        </a>
+                      )}
+                  </div>
+                </div>
 <div className="bod-box"><img src={OnlineTraining04} alt="Online Training" />
 	<p>Where Teachers Meet the Frontiers of Science</p>
 	<div>{isAuthenticated && !hasSubscription ? (
